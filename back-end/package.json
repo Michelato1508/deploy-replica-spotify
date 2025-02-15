@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,9 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
+    "deploy": "file:..",
     "express": "^4.21.2",
-    "mongodb": "^6.13.0"
+    "mongodb": "^6.13.0",
+    "path": "^0.12.7"
   }
 }

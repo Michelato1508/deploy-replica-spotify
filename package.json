@@ -1,0 +1,22 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix back-end && npm i --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michelato1508/deploy-replica-spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Michelato1508/deploy-replica-spotify/issues"
+  },
+  "homepage": "https://github.com/Michelato1508/deploy-replica-spotify#readme",
+  "description": ""
+}
